@@ -23,6 +23,13 @@ public class QuizActivity extends AppCompatActivity {
         SubmitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
+
+
+
+
+
                 score = "10/10";
                 Intent intent = new Intent(QuizActivity.this,ScoreActivity.class);
                 intent.putExtra( "SCORE",score);  //name should be same in the score activity
